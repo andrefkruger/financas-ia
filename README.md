@@ -18,6 +18,7 @@ Projeto que automatiza a categorização de transações financeiras usando um m
 - Categorização das transações usando IA generativa
 - Cálculo de gastos totais e percentuais por categoria
 - Dashboard interativo com gráficos e métricas
+- Detecção de gastos fora do padrão (anomalias) por categoria
 
 ## 🚀 Como rodar localmente
 
@@ -45,6 +46,5 @@ Esse foi meu primeiro projeto integrando uma API de IA generativa a um pipeline 
 
 ## 🔮 Próximos passos
 
-- Adicionar detecção de anomalias nos gastos
 - Permitir upload de CSV diretamente pelo dashboard
 - Comparar performance entre categorização por IA e por modelo de ML treinado
