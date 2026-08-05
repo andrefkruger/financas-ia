@@ -13,7 +13,19 @@ print(df)
 
 def categorizar(descricao):
     prompt = f"""Categorize a transação financeira abaixo em UMA única palavra, escolhendo entre: 
-Mercado, Transporte, Lazer, Assinatura, Moradia, Saude, Educacao, Salario, Outros.
+    Mercado, Transporte, Lazer, Assinatura, Moradia, Saude, Educacao, Salario, Transferencia, Compras, Outros.
+    
+    Regras importantes:
+    - PIX ou transferência enviada/recebida entre pessoas = Transferencia
+    - Compras em lojas de variedades, roupas ou eletrônicos = Compras
+    - Supermercado, padaria, açougue = Mercado
+    - Fatura de cartão de crédito = Outros
+    
+    Exemplos:
+    "PIX recebido - Mariana Alves" -> Transferencia
+    "Loja Havan" -> Compras
+    "Supermercado Angeloni" -> Mercado
+    "Uber" -> Transporte
 
 Transação: {descricao}
 
