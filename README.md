@@ -19,6 +19,7 @@ Projeto que automatiza a categorização de transações financeiras usando um m
 - Cálculo de gastos totais e percentuais por categoria
 - Dashboard interativo com gráficos e métricas
 - Detecção de gastos fora do padrão (anomalias) por categoria
+- Upload de CSV próprio com categorização em tempo real (limitado a 20 linhas na demo pública)
 
 ## 🚀 Como rodar localmente
 
@@ -46,5 +47,4 @@ Esse foi meu primeiro projeto integrando uma API de IA generativa a um pipeline 
 
 ## 🔮 Próximos passos
 
-- Permitir upload de CSV diretamente pelo dashboard
 - Comparar performance entre categorização por IA e por modelo de ML treinado
