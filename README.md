@@ -20,6 +20,7 @@ Projeto que automatiza a categorização de transações financeiras usando um m
 - Dashboard interativo com gráficos e métricas
 - Detecção de gastos fora do padrão (anomalias) por categoria
 - Upload de CSV próprio com categorização em tempo real (limitado a 20 linhas na demo pública)
+- Prompt refinado com regras e exemplos (few-shot) para maior precisão na categorização
 
 ## 🚀 Como rodar localmente
 
